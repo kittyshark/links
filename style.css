@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    font-size: 14px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
@@ -23,5 +23,48 @@ body {
 }
 
 .content-wrapper {
-    font-size: 2em;
+
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: #EA4C89;
+    color: #FFFFFF;
+
+    font-size: 1.4em;
+    font-weight: 500;
+    width: 80%;
+    
+    border-radius: .8em;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    height: 4em;
+    line-height: 2em;
+    list-style: none;
+    
+    margin: 1em auto;
+    outline: none;
+    padding: 1em 1.6em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    background-color: #F082AC;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: #8f4260;
 }
